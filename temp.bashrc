@@ -20,3 +20,5 @@ man() {
 }
 #Setting a temporary vimrc file for this shell session
 alias vim="vim -u /tmp/hb_${USER}_dotfiles/temp.vimrc"
+#Special alias for someone
+alias w="echo Done!"

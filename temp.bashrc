@@ -19,4 +19,4 @@ man() {
             man "$@"
 }
 #Setting a temporary vimrc file for this shell session
-VIMRUNTIME=/tmp/hb_"${USER}"_dotfiles/temp.vimrc
+alias vim="vim -u /tmp/hb_${USER}_dotfiles/temp.vimrc"
